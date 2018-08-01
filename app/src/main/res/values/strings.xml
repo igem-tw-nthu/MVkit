@@ -1,0 +1,21 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Sustainable Aquaculture</string>
+    <string name="dataReceived">dataReceived</string>
+    <string name="safeAdvice">
+                        \n   建議優先使用\n
+                        "\n       1. 換水 "
+                        "\n       2. 改善水質"
+                        "\n       3. 調整投飼輛"
+                        "\n       4. 檢討生鮮餌料衛生"\n
+                        "\n &#8230;等對策，待病情危險時再考慮藥物\n"</string>
+    <string name="warnAdvice">
+        \n          請務必盡早處理殺菌事宜\n
+        \n     若要使用藥物，每一種藥物之用法、用量及停藥期均可參考農委會「水產動物用藥品使用規範」
+                <xliff:g id="application_homepage">http://my/app/home.html</xliff:g>
+        \n     惟其中涉及處方用藥的部分，仍應依法諮請合格獸醫師開立處方箋，
+        據以購買合法之水產動物用藥。</string>
+    <string name="adviceTag">因應措施建議</string>
+    <string name="conditionBtn">查看魚塭狀態</string>
+    <string name="adviceContent">魚塭處於不同狀態時給您的建議</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

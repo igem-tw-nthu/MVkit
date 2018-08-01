@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".notify">
+
+    <TextView
+        android:id="@+id/adviceTag"
+        android:layout_width="450dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:background="#afeeee"
+        android:gravity="center"
+        android:padding="3dp"
+        android:text="@string/adviceTag"
+        android:textColor="?attr/colorPrimaryDark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/conditionBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/advice"
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="28sp"
+        android:text="@string/adviceContent" />
+
+    <Button
+        android:id="@+id/conditionBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="62dp"
+        android:layout_gravity="center"
+        android:background="?attr/colorPrimaryDark"
+        android:padding="10sp"
+        android:text="@string/conditionBtn"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<root>
+    <item name='org.eclipse.paho.client.mqttv3.MqttCallbackExtended'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>
